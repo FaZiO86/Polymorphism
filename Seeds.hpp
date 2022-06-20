@@ -1,15 +1,17 @@
-#ifndef SEED_HPP
-#define SEED_HPP
+#ifndef SEEDS_HPP
+#define SEEDS_HPP
+
 #include "Harvest.hpp"
 
-class Seeds :public Harvest
-{
+
+class Seeds : public Harvest {
 public:
-	Seeds() :Harvest("Seeds") {}
+	Seeds() :Harvest("SEEDS") { }
 private:
-	void setName(const char* name)
-	{
+	void setName(const char* name) {
 		Harvest::setName(name);
 	}
 };
-#endif
+
+
+#endif // !SEEDS_HPP

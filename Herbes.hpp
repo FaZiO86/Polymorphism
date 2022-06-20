@@ -1,17 +1,16 @@
-#ifndef GRASS_HPP
-#define GRASS_HPP
-
+#pragma once
 #include "Plant.hpp"
 #include "Seeds.hpp"
-
-class Grass :public Plant
-{
+class Herbes: public Plant {
 public:
-	Grass() :Plant("grass", 40) {}
+	Herbes() : Plant("Herbes", 10) {
+
+	}
 	Harvest::uPoiner harvest()
 	{
 		decreaseHarvest();
 		return std::make_unique<Seeds>();
 	}
+
 };
-#endif // GRASS_HPP
+
