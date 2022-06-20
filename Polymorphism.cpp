@@ -9,7 +9,7 @@
 #include "Tree.hpp"
 #include "Bush.hpp"
 #include "Grass.hpp"
-#include "Seed.hpp"
+#include "Seeds.hpp"
 
 using Environment = std::shared_ptr<std::vector<std::unique_ptr<Plant>>>;
 

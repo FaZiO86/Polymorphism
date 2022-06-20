@@ -2,10 +2,10 @@
 #define SEED_HPP
 #include "Harvest.hpp"
 
-class Seed :public Harvest
+class Seeds :public Harvest
 {
 public:
-	Seed() :Harvest("Seeds") {}
+	Seeds() :Harvest("Seeds") {}
 private:
 	void setName(const char* name)
 	{

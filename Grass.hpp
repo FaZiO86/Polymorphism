@@ -1,7 +1,7 @@
 #ifndef GRASS_HPP
 #define GRASS_HPP
 #include "Plant.hpp"
-#include "Seed.hpp"
+#include "Seeds.hpp"
 
 class Grass :public Plant
 {
@@ -10,7 +10,7 @@ public:
 	Harvest::uPoiner harvest()
 	{
 		decreaseHarvest();
-		return std::make_unique<Seed>();
+		return std::make_unique<Seeds>();
 	}
 };
 #endif
