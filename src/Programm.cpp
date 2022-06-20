@@ -14,7 +14,7 @@ Environment Init() {
 	for (size_t i = 0; i < 7; i++) {
 		result->emplace_back(std::make_unique<Flower>());
 	}
-	std::random_shuffle(result->begin(), result->end());
+	std::shuffle(result->begin(), result->end(), std::random_device());
 	return result;
 }
 

@@ -14,16 +14,16 @@ public:
 	using wPoiner = std::weak_ptr<Harvest>;
 
 
-	Harvest(const char *name):name(name) {
-		++harvests;
+	Harvest(const char *name):name_(name) {
+		++harvests_;
 	}
 	
 	const char *getName()const {
-		return name.c_str();
+		return name_.c_str();
 	}
 
 	void setName(const char *name) {
-		this->name = name;
+		name_ = name;
 	}
 
 	virtual const char *type() {
@@ -31,12 +31,12 @@ public:
 	}
 
 	virtual ~Harvest(){ 
-		--harvests;
+		--harvests_;
 	}
 	static int howMuch();
 private:
-	std::string name;
-	static int harvests;
+	std::string name_;
+	static int harvests_;
 };
 
 #endif

@@ -8,41 +8,41 @@
 class Plant {
 public:
 	Plant(const char *name,int harvestAmount)
-		:name(name),
-		countHarvest(harvestAmount)
+		:name_(name),
+		countHarvest_(harvestAmount)
 	{
-		++plants;
+		++plants_;
 	}
 
 	const char *getName()const {
-		return name.c_str();
+		return name_.c_str();
 	}
 
 	void setName(const char *name) {
-		this->name = name;
+		name_ = name;
 	}
 
 	virtual Harvest::uPoiner harvest() = 0;
 
 	int muchHarvest()const {
-		return countHarvest;
+		return countHarvest_;
 	}
 
 	static int howMuch();
 
 	virtual ~Plant() {
-		--plants;
+		--plants_;
 	}
 
 protected:
 	void decreaseHarvest() {
-		countHarvest -= 1;
+		countHarvest_ -= 1;
 	}
 
 private:
-	std::string name;
-	int countHarvest;
-	static int plants;
+	std::string name_;
+	int countHarvest_;
+	static int plants_;
 };
 
 

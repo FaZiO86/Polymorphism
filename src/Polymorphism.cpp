@@ -3,14 +3,14 @@
 #include <vector>
 #include <memory>
 #include <algorithm>
+#include <random>
 
 #include "Programm.hpp"
 
 
 int main()
 {
-	srand(time(NULL));
-    //получить список растений
+	//получить список растений
 	auto place = Init();
 	
 	Backpack playerBackpack;
@@ -26,7 +26,7 @@ int main()
 	}
 
 	//ну мы же на абум скидывали всё в рюкзак
-	std::random_shuffle(playerBackpack.begin(), playerBackpack.end());
+	std::shuffle(playerBackpack.begin(), playerBackpack.end(), std::random_device());
 	
 	//сообщить что нашёл
 	for (const auto &item:playerBackpack) {

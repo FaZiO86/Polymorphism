@@ -1,7 +1,7 @@
 #include "Harvest.hpp"
 
-int Harvest::harvests{0};
+int Harvest::harvests_{0};
 
 int Harvest::howMuch() {
-    return Harvest::harvests;
+    return Harvest::harvests_;
 }
