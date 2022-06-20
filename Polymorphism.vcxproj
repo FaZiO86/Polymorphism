@@ -128,23 +128,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Harvest.cpp" />
+    <ClCompile Include="Header.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Berry.hpp" />
     <ClInclude Include="Bush.hpp" />
+    <ClInclude Include="Flower.hpp" />
     <ClInclude Include="Fruit.hpp" />
     <ClInclude Include="Grass.hpp" />
+    <ClInclude Include="Header.hpp" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
+    <ClInclude Include="Pollen.hpp" />
     <ClInclude Include="Seeds.hpp" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram2.cd" />
-    <None Include="MyDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
