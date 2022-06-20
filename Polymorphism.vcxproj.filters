@@ -44,9 +44,18 @@
     <ClInclude Include="Bush.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Grass.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="seeds.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="ClassDiagramTest.cd">
       <Filter>Файлы ресурсов</Filter>
     </None>
   </ItemGroup>
