@@ -127,24 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Grass.cpp" />
-    <ClCompile Include="Harvest.cpp" />
-    <ClCompile Include="Plant.cpp" />
-    <ClCompile Include="Polymorphism.cpp" />
-    <ClCompile Include="Seeds.cpp" />
+    <ClCompile Include="src\Harvest.cpp" />
+    <ClCompile Include="src\Plant.cpp" />
+    <ClCompile Include="src\Polymorphism.cpp" />
+    <ClCompile Include="src\Programm.cpp" />
+    <ClCompile Include="src\Seeds.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Berry.hpp" />
-    <ClInclude Include="Bush.hpp" />
-    <ClInclude Include="Fruit.hpp" />
-    <ClInclude Include="Grass.hpp" />
-    <ClInclude Include="Plant.hpp" />
-    <ClInclude Include="Harvest.hpp" />
-    <ClInclude Include="Seeds.hpp" />
-    <ClInclude Include="Tree.hpp" />
+    <ClInclude Include="src\Berry.hpp" />
+    <ClInclude Include="src\Bush.hpp" />
+    <ClInclude Include="src\Flower.hpp" />
+    <ClInclude Include="src\Fruit.hpp" />
+    <ClInclude Include="src\Grass.hpp" />
+    <ClInclude Include="src\Plant.hpp" />
+    <ClInclude Include="src\Harvest.hpp" />
+    <ClInclude Include="src\Pollen.hpp" />
+    <ClInclude Include="src\Programm.hpp" />
+    <ClInclude Include="src\Seeds.hpp" />
+    <ClInclude Include="src\Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <None Include="rsc\ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

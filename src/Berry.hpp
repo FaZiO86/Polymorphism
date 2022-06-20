@@ -17,5 +17,3 @@ private:
 
 
 #endif //BERRY_HPP
-
-///тест
