@@ -6,7 +6,7 @@
 
 class Seeds : public Harvest {
 public:
-	Seeds() :Harvest("SEEDS") { }
+	Seeds() :Harvest("Seeds") { }
 private:
 	void setName(const char* name) {
 		Harvest::setName(name);
