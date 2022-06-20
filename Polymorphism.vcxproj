@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Grass.cpp" />
     <ClCompile Include="Harvest.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
+    <ClCompile Include="Seeds.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Berry.hpp" />
@@ -138,12 +140,11 @@
     <ClInclude Include="Grass.hpp" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
-    <ClInclude Include="seeds.hpp" />
+    <ClInclude Include="Seeds.hpp" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagramTest.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
