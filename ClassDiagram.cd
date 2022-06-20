@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bush">
-    <Position X="3.75" Y="3" Width="1.5" />
+    <Position X="3.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Bush.hpp</FileName>
@@ -22,21 +22,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Plant">
-    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Position X="6.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAAAACgAAAAAAACAEAABAAACEAgAQEAA=</HashCode>
       <FileName>Plant.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Harvest">
-    <Position X="8.5" Y="1.25" Width="1.5" />
+    <Position X="8.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAlAABAABIEAAAAAAA=</HashCode>
       <FileName>Harvest.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Tree">
-    <Position X="3.75" Y="1.25" Width="1.5" />
+    <Position X="3.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Tree.hpp</FileName>
