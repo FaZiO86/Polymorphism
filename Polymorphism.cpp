@@ -1,8 +1,25 @@
 ﻿#include <iostream>
 #include <string>
+#include <vector>
 #include <memory>
+#include <algorithm>
+#include <time.h>
 
-#include "Header.hpp"
+#include "Harvest.hpp"
+#include "Plant.hpp"
+#include "Tree.hpp"
+#include "Bush.hpp"
+#include "Seeds.hpp"
+#include "Grass.hpp"
+
+#include "Grass.hpp"
+#include "Seeds.hpp"
+
+#include "Flower.hpp"
+#include "Pollen.hpp"
+
+
+using Environment = std::shared_ptr<std::vector<std::unique_ptr<Plant>>>;
 
 Environment Init() {
 	Environment result{std::make_shared<std::vector<std::unique_ptr<Plant>>>()};
@@ -23,6 +40,7 @@ Environment Init() {
 }
 
 
+using Backpack = std::vector<std::unique_ptr<Harvest>>;
 
 int main()
 {
