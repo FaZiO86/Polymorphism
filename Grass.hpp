@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GRASS_HPP
+#define GRASS_HPP
 #include "Plant.hpp"
 #include "Seed.hpp"
 
