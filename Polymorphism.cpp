@@ -3,6 +3,7 @@
 #include <vector>
 #include <memory>
 #include <algorithm>
+#include <time.h>
 
 #include "Harvest.hpp"
 #include "Plant.hpp"
@@ -13,6 +14,9 @@
 
 #include "Grass.hpp"
 #include "Seeds.hpp"
+
+#include "Flower.hpp"
+#include "Pollen.hpp"
 
 
 using Environment = std::shared_ptr<std::vector<std::unique_ptr<Plant>>>;
@@ -28,6 +32,9 @@ Environment Init() {
 	for (size_t i = 0; i < 7; i++) {
 		result->emplace_back(std::make_unique<Grass>());
 	}
+	for (size_t i = 0; i < 7; i++) {
+		result->emplace_back(std::make_unique<Flower>());
+	}
 	std::random_shuffle(result->begin(), result->end());
 	return result;
 }
@@ -37,6 +44,7 @@ using Backpack = std::vector<std::unique_ptr<Harvest>>;
 
 int main()
 {
+	srand(time(NULL));
     //получить список растений
 	auto place = Init();
 	
