@@ -127,16 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Grass.cpp" />
     <ClCompile Include="Harvest.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
+    <ClCompile Include="Seed.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Berry.hpp" />
     <ClInclude Include="Bush.hpp" />
     <ClInclude Include="Fruit.hpp" />
+    <ClInclude Include="Grass.hpp" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
+    <ClInclude Include="Seed.hpp" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
