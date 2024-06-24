@@ -4,9 +4,9 @@
 #include "Harvest.hpp"
 
 
-class Pollen : public Harvest {
+class Pollen: public Harvest {
 public:
-	Pollen() :Harvest("Pollen") { }
+	Pollen() :Harvest("pollen") { }
 private:
 	void setName(const char* name) {
 		Harvest::setName(name);
@@ -14,4 +14,4 @@ private:
 };
 
 
-#endif // !POLLEN_HPP
+#endif 
